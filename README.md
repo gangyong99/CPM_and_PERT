@@ -92,7 +92,7 @@ grp.forward_calc()
 grp.backward_calc()
 
 # Node Graph
-grpplt = plot_node_graph(node_map=node_map,node_weight_map=node_weight_map,virtual_link=[[1,2]])
+grpplt = plot_node_graph(node_map=node_map,node_weight_map=node_weight_map,virtual_link=virtual_link)
 # Node location arrangement
 grpplt.calc_col_row()
 
