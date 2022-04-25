@@ -20,6 +20,9 @@
     - Node Information Input
 - 코드 정리...
 
+※ Input Variable
+![input](https://user-images.githubusercontent.com/44805829/165007723-454d6b2c-6fc8-4884-8bec-a21c11b44323.png)
+
 ### Example1
 
 ```python
