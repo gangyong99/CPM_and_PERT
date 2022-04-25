@@ -1,24 +1,27 @@
-# CPM / PERT
+# PERT / CPM
 ![PERT](https://upload.wikimedia.org/wikipedia/commons/b/b9/Pert_chart_colored.gif)
-#### CPM(Critical Path Method)
-...
+
 #### PERT(Program/Project Evaluation and Review Technique)
 ...
+#### CPM(Critical Path Method)
+...
+
 </br>
 #### Progress Status
 - Create Node[O]
 - Graph Visualization[O]
     - Node can be placed automatically.
     - Links are created automatically.
-- CPM
+- PERT, CPM
+    - Time calculation[...]
     - Forward calculation[O]
     - Backward calculation[O]
     - Critical Path[...]
+    - ...
 - PERT
-    - Time calculation[...]
-    - Forward calculation[...]
-    - Backward calculation[...]
-    - Critical Path[...]
+    - ...
+- CPM
+    - ...
 - Interface?
     - Node Information Input
 - 코드 정리...
