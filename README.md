@@ -2,12 +2,15 @@
 ![PERT](https://upload.wikimedia.org/wikipedia/commons/b/b9/Pert_chart_colored.gif)
 
 #### PERT(Program/Project Evaluation and Review Technique)
+
+
 ...
 #### CPM(Critical Path Method)
+
 ...
 
-</br>
 #### Progress Status
+
 - Create Node[O]
 - Graph Visualization[O]
     - Node can be placed automatically.
