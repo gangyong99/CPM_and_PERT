@@ -5,7 +5,7 @@
 #### PERT
 ...
 </br>
-#### 진행상황, Progress Status
+#### Progress Status
 - Create Node[O]
 - Graph Visualization[O]
     - Node can be placed automatically.
