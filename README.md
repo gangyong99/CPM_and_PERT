@@ -52,7 +52,7 @@ grpplt.weight_plotting()
 grpplt.time_plotting(grp.forward_value,grp.backward_value)
 grpplt.drawing()
 ```
-![graph1](https://user-images.githubusercontent.com/44805829/165019057-cd5105dd-3530-4b9a-9671-170cfd94f988.png)
+![graph1](https://user-images.githubusercontent.com/44805829/165019938-ab2e0374-3dea-4f60-a402-8b9f0e323ebb.png)
 
 ### Example2
 ```python
@@ -79,7 +79,7 @@ grpplt.weight_plotting()
 grpplt.time_plotting(grp.forward_value,grp.backward_value)
 grpplt.drawing()
 ```
-![graph2](https://user-images.githubusercontent.com/44805829/165019080-e2782ec3-c490-49c8-a2b4-b676ee1f076a.png)
+![graph2](https://user-images.githubusercontent.com/44805829/165019951-68955289-4193-498d-81fb-8caed083d4cb.png)
 
 ### Example3
 ```python
@@ -104,4 +104,4 @@ grpplt.weight_plotting()
 grpplt.time_plotting(grp.forward_value,grp.backward_value)
 grpplt.drawing()
 ```
-![graph3](https://user-images.githubusercontent.com/44805829/165019116-b2af4d2f-f69d-4bc2-8149-06e38a71193e.png)
+![graph3](https://user-images.githubusercontent.com/44805829/165019961-06cd805b-7d1d-4af6-8bfc-55b7a3bde341.png)
