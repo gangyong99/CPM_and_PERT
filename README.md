@@ -12,12 +12,13 @@
     - Links are created automatically.
 - CPM
     - Forward calculation[O]
-    - Backward calculation[...}
+    - Backward calculation[O]
+    - Critical Path[...]
 - PERT
     - Time calculation[...]
     - Forward calculation[...]
     - Backward calculation[...]
-
+    - Critical Path[...]
 - Interface?
     - Node Information Input
 - 코드 정리...
@@ -47,7 +48,7 @@ grpplt.node_plotting()
 grpplt.arrow_plotting()
 grpplt.virtual_arrow()
 grpplt.weight_plotting()
-grpplt.forward_plotting(grp.forward_value)
+grpplt.time_plotting(grp.forward_value,grp.backward_value)
 grpplt.drawing()
 ```
 
@@ -74,7 +75,7 @@ grpplt.node_plotting()
 grpplt.arrow_plotting()
 grpplt.virtual_arrow()
 grpplt.weight_plotting()
-grpplt.forward_plotting(grp.forward_value)
+grpplt.time_plotting(grp.forward_value,grp.backward_value)
 grpplt.drawing()
 ```
 ![graph2](https://user-images.githubusercontent.com/44805829/165005536-12b2ff1a-23e1-4363-95fe-ecdb27818530.png)
