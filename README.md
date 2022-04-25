@@ -21,9 +21,9 @@
 
 ### Example1
 
-'''python
-test
-'''
+```python
+print('hello')
+```
 
 ![graph1](https://user-images.githubusercontent.com/44805829/165005520-fe241462-a364-4aa3-9a6a-e1143dc70b5c.png)
 ### Example2
