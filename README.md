@@ -37,9 +37,10 @@ virtual_link=[[1,2]]
 grp = dir_graph_pert(node_map = node_map,node_weight_map=node_weight_map,virtual_link=virtual_link)
 # Forward Calc.
 grp.forward_calc()
+grp.backward_calc()
 
 # Node Graph
-grpplt = plot_node_graph(node_map=node_map,node_weight_map=node_weight_map,virtual_link=[[1,2]])
+grpplt = plot_node_graph(node_map=node_map,node_weight_map=node_weight_map,virtual_link=virtual_link)
 # Node location arrangement
 grpplt.calc_col_row()
 
@@ -51,8 +52,7 @@ grpplt.weight_plotting()
 grpplt.time_plotting(grp.forward_value,grp.backward_value)
 grpplt.drawing()
 ```
-
-![graph1](https://user-images.githubusercontent.com/44805829/165005520-fe241462-a364-4aa3-9a6a-e1143dc70b5c.png)
+![graph1](https://user-images.githubusercontent.com/44805829/165019057-cd5105dd-3530-4b9a-9671-170cfd94f988.png)
 
 ### Example2
 ```python
@@ -64,6 +64,32 @@ virtual_link = [[1,2]]
 grp = dir_graph_pert(node_map = node_map,node_weight_map=node_weight_map,virtual_link=virtual_link)
 # Forward Calc.
 grp.forward_calc()
+grp.backward_calc()
+
+# Node Graph
+grpplt = plot_node_graph(node_map=node_map,node_weight_map=node_weight_map,virtual_link=virtual_link)
+# Node location arrangement
+grpplt.calc_col_row()
+
+# Plot
+grpplt.node_plotting()
+grpplt.arrow_plotting()
+grpplt.virtual_arrow()
+grpplt.weight_plotting()
+grpplt.time_plotting(grp.forward_value,grp.backward_value)
+grpplt.drawing()
+```
+![graph2](https://user-images.githubusercontent.com/44805829/165019080-e2782ec3-c490-49c8-a2b4-b676ee1f076a.png)
+
+### Example3
+```python
+# Node Information
+node_map = [[1,2,3],[4],[6],[5],[8],[7],[8],[8],[9],[]]
+node_weight_map = [[[1,4],[2,4],[3,5]],[[4,5]],[[6,5]],[[5,2]],[[8,6]],[[7,2]],[[8,3]],[[8,4]],[[9,5]],[]]
+virtual_link = [[2,3],[5,6]]
+grp = dir_graph_pert(node_map = node_map,node_weight_map=node_weight_map,virtual_link=virtual_link)
+grp.forward_calc()
+grp.backward_calc()
 
 # Node Graph
 grpplt = plot_node_graph(node_map=node_map,node_weight_map=node_weight_map,virtual_link=[[1,2]])
@@ -78,4 +104,4 @@ grpplt.weight_plotting()
 grpplt.time_plotting(grp.forward_value,grp.backward_value)
 grpplt.drawing()
 ```
-![graph2](https://user-images.githubusercontent.com/44805829/165005536-12b2ff1a-23e1-4363-95fe-ecdb27818530.png)
+![graph3](https://user-images.githubusercontent.com/44805829/165019116-b2af4d2f-f69d-4bc2-8149-06e38a71193e.png)
