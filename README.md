@@ -15,7 +15,7 @@
 - Graph Visualization[O]
     - Node can be placed automatically.
     - Links are created automatically.
-- PERT, CPM
+- PERT, CPM share
     - Time calculation[...]
     - Forward calculation[O]
     - Backward calculation[O]
