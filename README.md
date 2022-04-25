@@ -8,6 +8,8 @@
 #### 진행상황, Progress Status
 - Create Node[O]
 - Graph Visualization[O]
+    - Node can be placed automatically.
+    - Links are created automatically.
 - CPM
     - Forward calculation[O]
     - Backward calculation[...}
