@@ -1,8 +1,8 @@
 # CPM / PERT
 ![PERT](https://upload.wikimedia.org/wikipedia/commons/b/b9/Pert_chart_colored.gif)
-#### CPM(Critical Path Method, CPM)
+#### CPM(Critical Path Method)
 ...
-#### PERT
+#### PERT(Program/Project Evaluation and Review Technique)
 ...
 </br>
 #### Progress Status
